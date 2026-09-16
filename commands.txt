@@ -1,0 +1,5 @@
+Step 1 - > Initiate the project "git init"
+
+    This will creates .git hidden file in the folder
+
+Step 2 -> Check repo status "git status"
