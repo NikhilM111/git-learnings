@@ -1,5 +1,19 @@
-Step 1 - > Initiate the project "git init"
+Initiate the project "git init"
+    -This will creates .git hidden file in the folder & converts local folder into git repository
 
-    This will creates .git hidden file in the folder
+Check repo status "git status"
+    -This return the current status of the repository
 
-Step 2 -> Check repo status "git status"
+Add file to git hub local repo "git add commands.txt"
+    -So this will add the file in local git repo (Moved to staging area)
+
+saving code to git hub repository "git commit -m "First save"
+    -saving record into repository -m stands for message
+
+check the commit logs "git log --oneline"
+    -get logs of commit history of the repo
+
+push file to online repository "git push -u origin main"
+    -push or save the file into git hub repository
+        - main is a branch name
+        - And -u stands for --set-upstream.
