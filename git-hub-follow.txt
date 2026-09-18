@@ -1,0 +1,21 @@
+                 GitHub -> Remote Repository
+                   ↑
+                   │ git push
+                   │
+             ┌───────────┐
+             │   Local   │ -> After staging, you create a snapshot: 
+             │ Repository│    That commit exists on your computer.
+             └───────────┘    It has nothing to do with GitHub yet.
+                   ↑          git commit -m "Add employee service"
+                   │ git add
+                   │
+             ┌───────────┐
+             │  Staging  │ -> These are the changes I want included in my next commit.
+             │   Area    │ -> git add EmployeeService.java
+             └───────────┘
+                   ↑
+                   │
+             ┌───────────┐
+             │ Working   │ -> Place where I work
+             │ Directory │
+             └───────────┘
