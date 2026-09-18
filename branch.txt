@@ -1,0 +1,5 @@
+A branch is essentially a separate line of development in Git.
+
+git branch -> gives my current residing branch
+git branch features/first-branch -> created my 1st branch called features/first-branch
+git switch features/first-branch -> switch to features/first-branch from main branch
