@@ -1,0 +1,7 @@
+This change was made in my first feature branch.
+
+git stash
+→ temporarily saves your changes
+
+git restore
+→ discards your uncommitted changes
